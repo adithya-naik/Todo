@@ -1,0 +1,28 @@
+
+.input-row{
+  margin-top: 3%;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+/* these are used in 2 different components so,we will left them in this file instead separate css modules */
+.my-row{
+  display: flex;
+  align-items: center;
+  /* border: 2px solid rgba(0, 213, 255, 0.088);   */
+  border-radius: 20px;
+  margin: 10px 5px;
+  padding:4px  12px;
+}
+.my-btn{
+  min-width: 80px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
